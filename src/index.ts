@@ -12,10 +12,10 @@ const eventHandler = new DOMEventHandler();
 const facebook: AbsctractShareButton = new ShareButtonFacebook("http://www.github.com/lucasGabrielDeAA", ".btn-facebook", eventHandler);
 facebook.bind();
 
-const twitter: AbsctractShareButton = new ShareButtonLinkedin("http://www.github.com/lucasGabrielDeAA", ".btn-twitter", eventHandler);
+const twitter: AbsctractShareButton = new ShareButtonTwitter("http://www.github.com/lucasGabrielDeAA", ".btn-twitter", eventHandler);
 twitter.bind();
 
-const linkedin: AbsctractShareButton = new ShareButtonTwitter("http://www.github.com/lucasGabrielDeAA", ".btn-linkedin", eventHandler);
+const linkedin: AbsctractShareButton = new ShareButtonLinkedin("http://www.github.com/lucasGabrielDeAA", ".btn-linkedin", eventHandler);
 linkedin.bind();
 
 const print: AbsctractShareButton = new ShareButtonPrint(".print", eventHandler);
